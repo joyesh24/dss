@@ -8,13 +8,13 @@
 </head>
 <body class="min-h-screen bg-gradient-to-b from-gray-100 to-gray-200">
 
-  <!-- Header -->
+  <!-- Header Section -->
   <header class="relative bg-gradient-to-b from-[#1a365d] to-[#2d4a8a] py-12">
     <div class="container mx-auto px-4">
-      <div class="relative w-full max-w-5xl mx-auto aspect-[4/3] rounded-lg overflow-hidden shadow-2xl mb-8 transform transition-transform duration-300">
+      <div class="relative w-full max-w-5xl mx-auto aspect-w-4 aspect-h-3 rounded-lg overflow-hidden shadow-2xl mb-8 transition-transform transform hover:scale-105 duration-300">
         <img 
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/_e62ae350-7340-417d-b5f1-2439e8082339-qvVQ8zMIFLqAuKhLz014xNNI1D8APg.jpeg"
-          alt="SSC 26 Batch"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/_e62ae350-7340-417d-b5f1-2439e8082339-qvVQ8zMIFLqAuKhLz014xNNI1D8APg.jpeg" 
+          alt="SSC 26 Batch" 
           class="object-cover w-full h-full"
         />
       </div>
@@ -24,34 +24,54 @@
     </div>
   </header>
 
-  <!-- Main Content -->
+  <!-- Dashboard Section -->
   <main class="container mx-auto px-4 py-12">
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-      <!-- Dashboard Items -->
-      <div class="group transition-all duration-300 hover:shadow-lg rounded-lg overflow-hidden bg-gradient-to-br from-orange-100 to-orange-50 hover:from-orange-200 hover:to-orange-100">
+      
+      <!-- নোটিশ -->
+      <div class="group hover:shadow-lg rounded-lg overflow-hidden bg-gradient-to-br from-orange-100 to-orange-50 hover:from-orange-200 hover:to-orange-100">
         <div class="p-6 flex flex-col items-center justify-center text-center space-y-4">
-          <div class="p-3 rounded-full bg-white group-hover:bg-white transition-colors duration-300">
-            <svg class="h-8 w-8 text-[#1a365d] group-hover:text-[#f97316]" fill="currentColor" viewBox="0 0 24 24"><path d="..."></path></svg>
+          <div class="p-3 rounded-full bg-white/80 group-hover:bg-white transition-colors duration-300">
+            <!-- Icon -->
+            <span class="text-[#1a365d] text-2xl">&#128196;</span>
           </div>
           <h2 class="text-sm font-medium text-[#1a365d] group-hover:text-[#1a365d]/80">নোটিশ</h2>
         </div>
       </div>
 
-      <!-- Repeat the above block for each item -->
-      <!-- Example: শিক্ষার্থী ব্যবস্থাপনা -->
-      <div class="group transition-all duration-300 hover:shadow-lg rounded-lg overflow-hidden bg-gradient-to-br from-blue-100 to-blue-50 hover:from-blue-200 hover:to-blue-100">
+      <!-- শিক্ষার্থী ব্যবস্থাপনা -->
+      <div class="group hover:shadow-lg rounded-lg overflow-hidden bg-gradient-to-br from-blue-100 to-blue-50 hover:from-blue-200 hover:to-blue-100">
         <div class="p-6 flex flex-col items-center justify-center text-center space-y-4">
-          <div class="p-3 rounded-full bg-white group-hover:bg-white transition-colors duration-300">
-            <svg class="h-8 w-8 text-[#1a365d] group-hover:text-[#f97316]" fill="currentColor" viewBox="0 0 24 24"><path d="..."></path></svg>
+          <div class="p-3 rounded-full bg-white/80 group-hover:bg-white transition-colors duration-300">
+            <span class="text-[#1a365d] text-2xl">&#128101;</span>
           </div>
           <h2 class="text-sm font-medium text-[#1a365d] group-hover:text-[#1a365d]/80">শিক্ষার্থী ব্যবস্থাপনা</h2>
         </div>
       </div>
-      
-      <!-- Repeat for other titles: পরিসংখ্যান, একাডেমিক ক্যালেন্ডার, etc. -->
 
+      <!-- পরিসংখ্যান -->
+      <div class="group hover:shadow-lg rounded-lg overflow-hidden bg-gradient-to-br from-purple-100 to-purple-50 hover:from-purple-200 hover:to-purple-100">
+        <div class="p-6 flex flex-col items-center justify-center text-center space-y-4">
+          <div class="p-3 rounded-full bg-white/80 group-hover:bg-white transition-colors duration-300">
+            <span class="text-[#1a365d] text-2xl">&#128202;</span>
+          </div>
+          <h2 class="text-sm font-medium text-[#1a365d] group-hover:text-[#1a365d]/80">পরিসংখ্যান</h2>
+        </div>
+      </div>
+
+      <!-- একাডেমিক ক্যালেন্ডার -->
+      <div class="group hover:shadow-lg rounded-lg overflow-hidden bg-gradient-to-br from-green-100 to-green-50 hover:from-green-200 hover:to-green-100">
+        <div class="p-6 flex flex-col items-center justify-center text-center space-y-4">
+          <div class="p-3 rounded-full bg-white/80 group-hover:bg-white transition-colors duration-300">
+            <span class="text-[#1a365d] text-2xl">&#128197;</span>
+          </div>
+          <h2 class="text-sm font-medium text-[#1a365d] group-hover:text-[#1a365d]/80">একাডেমিক ক্যালেন্ডার</h2>
+        </div>
+      </div>
+
+      <!-- অন্যান্য আইটেম এখান থেকে কপি করে বসাতে পারবেন -->
+      
     </div>
   </main>
-
 </body>
 </html>
